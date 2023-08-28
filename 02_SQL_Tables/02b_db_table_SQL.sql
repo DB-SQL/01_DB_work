@@ -1,8 +1,8 @@
 /* ------  Strukturen ----- */
-
-/* Kommentar 1 */
-#  Kommentar 2
--- Kommentar 3
+/*      
+    NULL wird nicht mehr zugelassen
+    DEFAULT-Werte eintragen
+*/ 
 
 /* Datenbanken auf Server anzeigen */
 SHOW DATABASES;
@@ -40,11 +40,7 @@ INSERT INTO cats VALUES ();
 INSERT INTO cats(age,name) VALUES (35,"Alonzo");
 INSERT INTO cats(age,name) VALUES (35,"Alonzo");
 
-/* ------  Strukturen ----- */
-/*      
-    NULL wird nicht mehr zugelassen
-    DEFAULT-Werte eintragen
-*/ 
+
 
 
 /* ---- Inhalte der Tabelle anzeigen ---- */

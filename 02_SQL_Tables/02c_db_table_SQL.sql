@@ -1,8 +1,16 @@
 /* ------  Strukturen ----- */
+/*      
+    NULL wird nicht mehr zugelassen
+    DEFAULT-Werte eintragen
+*/ 
 
-/* Kommentar 1 */
-#  Kommentar 2
--- Kommentar 3
+/*      
+
+    Doppelte DS werden nicht mehr zugelassen
+
+    UNIQUE
+
+*/
 
 /* Datenbanken auf Server anzeigen */
 SHOW DATABASES;
@@ -18,19 +26,6 @@ SHOW DATABASES;
 /* DB auswählen */
 USE boo;
 
-/* ------  Strukturen ----- */
-/*      
-    NULL wird nicht mehr zugelassen
-    DEFAULT-Werte eintragen
-*/ 
-
-/*      
-
-    Doppelte DS werden nicht mehr zugelassen
-
-    UNIQUE
-
-*/
 
 /* Tabelle cats anlegen, falls noch nicht vorhanden*/
 CREATE TABLE IF NOT EXISTS cats
